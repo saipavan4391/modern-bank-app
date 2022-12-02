@@ -1,0 +1,28 @@
+import React from 'react'
+import styles from '../styles/styles'
+
+const TestimonialCard = (props:any) => {
+    const {id,title, name,content,img}=props
+
+  return (
+    <div className="flex justify-between md:items-start items-center flex-col px-10 py-12 rounded-[20px]  md:w-[370px] sm:w-[70vw] w-[400px] h-[400px]  md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+    <img src="/assets/quotes.svg" alt="double_quotes" className="w-[42px] h-[28px] object-contain" />
+    <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
+      {content}
+    </p>
+    <div className="flex flex-row">
+      <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
+      <div className="flex flex-col ml-4">
+        <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+          {name}
+        </h4>
+        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+          {title}
+        </p>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+export default TestimonialCard

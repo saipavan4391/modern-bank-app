@@ -8,7 +8,7 @@ const CardDeal = () => {
   return (
     <section id="features" className={`${styles.flexCenter} md:flex-row flex-col mt-16 md:p-0 px-8  gap-32`}>
     <div className={`flex flex-col justify-center items-start gap-2 `}>
-      <div className={`${styles.h2}`}>{cardDealTitle}</div>
+      <div className={`${styles.h2Text}`}>{cardDealTitle}</div>
       <div className={`${styles.paragraph} max-w-[500px] text-gray-400`}>
         {cardDealDesc}
       </div>

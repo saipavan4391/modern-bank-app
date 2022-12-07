@@ -19,7 +19,7 @@ const Testimonials = () => {
       <div
         className={`flex md:flex-row flex-col justify-start md:items-center items-start md:mt-16 m-4 md:p-0 px-8 md:gap-32 gap-4`}
       >
-        <div className={`${styles.h2} md:w-2/5 w-full`}>{testSectionTitle}</div>
+        <div className={`${styles.h2Text} md:w-2/5 w-full`}>{testSectionTitle}</div>
         <div className={`${styles.paragraph} max-w-[400px] text-gray-400`}>
           {testSectionDesc}
         </div>

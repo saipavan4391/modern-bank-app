@@ -14,8 +14,8 @@ const Business = () => {
   return (
     <section id="features" className={`${styles.flexCenter} md:flex-row flex-col  mt-16 md:p-0 px-8 md:gap-32 gap-4`}>
       <div className={`flex flex-col justify-center items-start gap-2 md:w-2/3 w-full`}>
-        <div className={`${styles.h2}`}>{businessText}</div>
-        <div className={`${styles.h2}`}>{businessTextAfter}</div>
+        <div className={`${styles.h2Text} `}>{businessText}</div>
+        <div className={`${styles.h2Text}`}>{businessTextAfter}</div>
         <div className={`${styles.paragraph} max-w-[500px] text-gray-400`}>
           {businessDesc}
         </div>

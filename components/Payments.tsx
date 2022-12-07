@@ -14,7 +14,7 @@ const Payments = () => {
       <div
         className={`flex flex-col justify-center items-start gap-2 md:w-2/3 w-full`}
       >
-        <div className={`${styles.h2}`}>{paymentsTitle}</div>
+        <div className={`${styles.h2Text}`}>{paymentsTitle}</div>
         <div className={`${styles.paragraph} max-w-[500px] text-gray-400`}>
           {paymentsContent}
         </div>
